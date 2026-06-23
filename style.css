@@ -1,0 +1,19 @@
+.top-header
+{
+    display: flex;
+    background: darkred;
+}
+.top-header,.uselesslink
+{
+    justify-content: flex-end;
+    padding-left: 10px;
+    color: yellowgreen;
+    flex-wrap: wrap-reverse;
+}
+.top-header,.Logo
+{
+    color: yellowgreen;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
